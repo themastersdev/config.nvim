@@ -33,6 +33,7 @@ External Requirements:
   - etc.
 
 > **NOTE**
+> See [Environment Variables](#Environment-Variables) for additional information on setting environment variables.
 > See [Install Recipes](#Install-Recipes) for additional Windows and Linux specific notes
 > and quick install snippets
 
@@ -106,6 +107,10 @@ current plugin status. Hit `q` to close the window.
 Read through the `init.lua` file in your configuration folder for more
 information about extending and exploring Neovim. That also includes
 examples of adding popularly requested plugins.
+
+### Environment Variables
+
+Assuming iTerm2 is the terminal being used, set the `RIPGREP_CONFIG_PATH` environment variable in `.zprofile` to equal the path of `.ripgreprc` (`.ripgreprc` is a file in this repository). The configurations in `.ripgreprc` enable Ripgrep to search for hidden files.
 
 
 ### Getting Started
