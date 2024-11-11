@@ -20,4 +20,11 @@ return {
       virtual_text_column = 1, -- virtual text start column, check Start virtual text at column section for more options
     },
   },
+  {
+    'lukas-reineke/indent-blankline.nvim',
+    main = 'ibl',
+    ---@module "ibl"
+    ---@type ibl.config
+    opts = {},
+  },
 }
